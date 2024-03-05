@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.transfer_response_schema import TransferResponseSchema
+from endgrate.models.transfer_response_schema import TransferResponseSchema
 
 # TODO update the JSON string below
 json = "{}"

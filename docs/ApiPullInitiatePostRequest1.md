@@ -19,7 +19,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.api_pull_initiate_post_request1 import ApiPullInitiatePostRequest1
+from endgrate.models.api_pull_initiate_post_request1 import ApiPullInitiatePostRequest1
 
 # TODO update the JSON string below
 json = "{}"

@@ -1,4 +1,4 @@
-# openapi_client.WebhooksApi
+# endgrate.WebhooksApi
 
 All URIs are relative to *https://endgrate.com*
 
@@ -21,22 +21,22 @@ Endgrate will POST to this webhook whenever a transfer is completed. This is use
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import endgrate
+from endgrate.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://endgrate.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = endgrate.Configuration(
     host = "https://endgrate.com"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with endgrate.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.WebhooksApi(api_client)
-    completed_callback_schema = openapi_client.CompletedCallbackSchema() # CompletedCallbackSchema | 
+    api_instance = endgrate.WebhooksApi(api_client)
+    completed_callback_schema = endgrate.CompletedCallbackSchema() # CompletedCallbackSchema | 
 
     try:
         # Completed Webhook
@@ -86,22 +86,22 @@ Endgrate will POST to this webhook when the session is configured by the user. T
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import endgrate
+from endgrate.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://endgrate.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = endgrate.Configuration(
     host = "https://endgrate.com"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with endgrate.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.WebhooksApi(api_client)
-    configuration_callback_schema = openapi_client.ConfigurationCallbackSchema() # ConfigurationCallbackSchema | 
+    api_instance = endgrate.WebhooksApi(api_client)
+    configuration_callback_schema = endgrate.ConfigurationCallbackSchema() # ConfigurationCallbackSchema | 
 
     try:
         # Configuration Webhook
@@ -151,22 +151,22 @@ Endgrate will POST to this webhook whenever new data is received. This is useful
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import endgrate
+from endgrate.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://endgrate.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = endgrate.Configuration(
     host = "https://endgrate.com"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with endgrate.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.WebhooksApi(api_client)
-    data_callback_schema = openapi_client.DataCallbackSchema() # DataCallbackSchema | 
+    api_instance = endgrate.WebhooksApi(api_client)
+    data_callback_schema = endgrate.DataCallbackSchema() # DataCallbackSchema | 
 
     try:
         # Data Webhook
@@ -216,22 +216,22 @@ Endgrate will POST to this webhook whenever an error occurs. This endpoint is us
 
 
 ```python
-import openapi_client
-from openapi_client.rest import ApiException
+import endgrate
+from endgrate.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://endgrate.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = endgrate.Configuration(
     host = "https://endgrate.com"
 )
 
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with endgrate.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.WebhooksApi(api_client)
-    error_callback_schema = openapi_client.ErrorCallbackSchema() # ErrorCallbackSchema | 
+    api_instance = endgrate.WebhooksApi(api_client)
+    error_callback_schema = endgrate.ErrorCallbackSchema() # ErrorCallbackSchema | 
 
     try:
         # Error Webhook

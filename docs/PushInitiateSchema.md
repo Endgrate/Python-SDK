@@ -23,7 +23,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.push_initiate_schema import PushInitiateSchema
+from endgrate.models.push_initiate_schema import PushInitiateSchema
 
 # TODO update the JSON string below
 json = "{}"

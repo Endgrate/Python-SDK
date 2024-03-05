@@ -27,7 +27,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.session_initiate_schema import SessionInitiateSchema
+from endgrate.models.session_initiate_schema import SessionInitiateSchema
 
 # TODO update the JSON string below
 json = "{}"

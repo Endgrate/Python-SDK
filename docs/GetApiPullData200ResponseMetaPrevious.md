@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_api_pull_data200_response_meta_previous import GetApiPullData200ResponseMetaPrevious
+from endgrate.models.get_api_pull_data200_response_meta_previous import GetApiPullData200ResponseMetaPrevious
 
 # TODO update the JSON string below
 json = "{}"

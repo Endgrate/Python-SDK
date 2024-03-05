@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_api_pull_data200_response_meta import GetApiPullData200ResponseMeta
+from endgrate.models.get_api_pull_data200_response_meta import GetApiPullData200ResponseMeta
 
 # TODO update the JSON string below
 json = "{}"

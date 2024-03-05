@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.get_api_integrations200_response_providers_inner_integrations_inner import GetApiIntegrations200ResponseProvidersInnerIntegrationsInner
+from endgrate.models.get_api_integrations200_response_providers_inner_integrations_inner import GetApiIntegrations200ResponseProvidersInnerIntegrationsInner
 
 # TODO update the JSON string below
 json = "{}"

@@ -18,7 +18,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.error_callback_schema import ErrorCallbackSchema
+from endgrate.models.error_callback_schema import ErrorCallbackSchema
 
 # TODO update the JSON string below
 json = "{}"

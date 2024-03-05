@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.webhook_schema import WebhookSchema
+from endgrate.models.webhook_schema import WebhookSchema
 
 # TODO update the JSON string below
 json = "{}"

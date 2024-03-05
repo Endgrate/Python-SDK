@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.post_api_schemas_request_data_inner import PostApiSchemasRequestDataInner
+from endgrate.models.post_api_schemas_request_data_inner import PostApiSchemasRequestDataInner
 
 # TODO update the JSON string below
 json = "{}"

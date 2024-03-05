@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.endgrate_json_schema import EndgrateJsonSchema
+from endgrate.models.endgrate_json_schema import EndgrateJsonSchema
 
 # TODO update the JSON string below
 json = "{}"
