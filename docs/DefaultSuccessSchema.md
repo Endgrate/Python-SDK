@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from endgrate.models.default_success_schema import DefaultSuccessSchema
+from openapi_client.models.default_success_schema import DefaultSuccessSchema
 
 # TODO update the JSON string below
 json = "{}"

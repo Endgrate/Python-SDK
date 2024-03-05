@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from endgrate.models.data_callback_schema import DataCallbackSchema
+from openapi_client.models.data_callback_schema import DataCallbackSchema
 
 # TODO update the JSON string below
 json = "{}"

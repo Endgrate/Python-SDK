@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from endgrate.models.configuration_callback_schema import ConfigurationCallbackSchema
+from openapi_client.models.configuration_callback_schema import ConfigurationCallbackSchema
 
 # TODO update the JSON string below
 json = "{}"

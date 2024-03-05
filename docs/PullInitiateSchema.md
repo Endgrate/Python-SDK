@@ -27,7 +27,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from endgrate.models.pull_initiate_schema import PullInitiateSchema
+from openapi_client.models.pull_initiate_schema import PullInitiateSchema
 
 # TODO update the JSON string below
 json = "{}"

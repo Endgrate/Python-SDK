@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "endgrate"
+name = "openapi_client"
 version = "1.0.0"
 description = "Endgrate API"
 authors = ["Endgrate Team <team@endgrate.com>"]
@@ -7,7 +7,7 @@ license = "NoLicense"
 readme = "README.md"
 repository = "https://github.com/GIT_USER_ID/GIT_REPO_ID"
 keywords = ["OpenAPI", "OpenAPI-Generator", "Endgrate API"]
-include = ["endgrate/py.typed"]
+include = ["openapi_client/py.typed"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
@@ -34,7 +34,7 @@ extension-pkg-whitelist = "pydantic"
 
 [tool.mypy]
 files = [
-  "endgrate",
+  "openapi_client",
   #"test",  # auto-generated tests
   "tests", # hand-written tests
 ]

@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from endgrate.models.configuration_callback_schema_schemas_value import ConfigurationCallbackSchemaSchemasValue
+from openapi_client.models.configuration_callback_schema_schemas_value import ConfigurationCallbackSchemaSchemasValue
 
 # TODO update the JSON string below
 json = "{}"

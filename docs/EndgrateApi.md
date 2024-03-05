@@ -1,4 +1,4 @@
-# endgrate.EndgrateApi
+# openapi_client.EndgrateApi
 
 All URIs are relative to *https://endgrate.com*
 
@@ -31,14 +31,14 @@ Get Error Logs
 * Bearer Authentication (BearerAuth):
 
 ```python
-import endgrate
-from endgrate.models.get_api_errors200_response import GetApiErrors200Response
-from endgrate.rest import ApiException
+import openapi_client
+from openapi_client.models.get_api_errors200_response import GetApiErrors200Response
+from openapi_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://endgrate.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = endgrate.Configuration(
+configuration = openapi_client.Configuration(
     host = "https://endgrate.com"
 )
 
@@ -48,14 +48,14 @@ configuration = endgrate.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = endgrate.Configuration(
+configuration = openapi_client.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with endgrate.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = endgrate.EndgrateApi(api_client)
+    api_instance = openapi_client.EndgrateApi(api_client)
     limit = 250 # int |  (optional)
     offset = 500 # int |  (optional)
     session_id = '6566e85e7cf20dca9cef0c0a' # str |  (optional)
@@ -113,22 +113,22 @@ Get Integrations
 
 
 ```python
-import endgrate
-from endgrate.models.get_api_integrations200_response import GetApiIntegrations200Response
-from endgrate.rest import ApiException
+import openapi_client
+from openapi_client.models.get_api_integrations200_response import GetApiIntegrations200Response
+from openapi_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://endgrate.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = endgrate.Configuration(
+configuration = openapi_client.Configuration(
     host = "https://endgrate.com"
 )
 
 
 # Enter a context with an instance of the API client
-with endgrate.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = endgrate.EndgrateApi(api_client)
+    api_instance = openapi_client.EndgrateApi(api_client)
     provider = 'hubspot' # str |  (optional)
     category = 'CRM' # str |  (optional)
     session_id = '6566e85e7cf20dca9cef0c0a' # str |  (optional)
@@ -185,14 +185,14 @@ Get Pull Data
 * Bearer Authentication (BearerAuth):
 
 ```python
-import endgrate
-from endgrate.models.get_api_pull_data200_response import GetApiPullData200Response
-from endgrate.rest import ApiException
+import openapi_client
+from openapi_client.models.get_api_pull_data200_response import GetApiPullData200Response
+from openapi_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://endgrate.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = endgrate.Configuration(
+configuration = openapi_client.Configuration(
     host = "https://endgrate.com"
 )
 
@@ -202,14 +202,14 @@ configuration = endgrate.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = endgrate.Configuration(
+configuration = openapi_client.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with endgrate.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = endgrate.EndgrateApi(api_client)
+    api_instance = openapi_client.EndgrateApi(api_client)
     endgrate_type = 'endgrate_type_example' # str | A valid `endgrate_type` for the session. If no `endgrate_type` was specified, the title of the schema can be used instead.
     transfer_id = '6566e89b7cf20dca9cef0c10' # str | 
     limit = 250 # int |  (optional)
@@ -269,14 +269,14 @@ Get Session Configuration
 * Bearer Authentication (BearerAuth):
 
 ```python
-import endgrate
-from endgrate.models.configuration_callback_schema import ConfigurationCallbackSchema
-from endgrate.rest import ApiException
+import openapi_client
+from openapi_client.models.configuration_callback_schema import ConfigurationCallbackSchema
+from openapi_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://endgrate.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = endgrate.Configuration(
+configuration = openapi_client.Configuration(
     host = "https://endgrate.com"
 )
 
@@ -286,14 +286,14 @@ configuration = endgrate.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = endgrate.Configuration(
+configuration = openapi_client.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with endgrate.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = endgrate.EndgrateApi(api_client)
+    api_instance = openapi_client.EndgrateApi(api_client)
     session_id = 'session_id_example' # str | 
 
     try:
@@ -346,15 +346,15 @@ Delete Session
 * Bearer Authentication (BearerAuth):
 
 ```python
-import endgrate
-from endgrate.models.default_success_schema import DefaultSuccessSchema
-from endgrate.models.delete_schema import DeleteSchema
-from endgrate.rest import ApiException
+import openapi_client
+from openapi_client.models.default_success_schema import DefaultSuccessSchema
+from openapi_client.models.delete_schema import DeleteSchema
+from openapi_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://endgrate.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = endgrate.Configuration(
+configuration = openapi_client.Configuration(
     host = "https://endgrate.com"
 )
 
@@ -364,15 +364,15 @@ configuration = endgrate.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = endgrate.Configuration(
+configuration = openapi_client.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with endgrate.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = endgrate.EndgrateApi(api_client)
-    delete_schema = endgrate.DeleteSchema() # DeleteSchema | 
+    api_instance = openapi_client.EndgrateApi(api_client)
+    delete_schema = openapi_client.DeleteSchema() # DeleteSchema | 
 
     try:
         # Delete Session
@@ -423,22 +423,22 @@ Get Statistics
 
 
 ```python
-import endgrate
-from endgrate.models.get_api_statistics200_response import GetApiStatistics200Response
-from endgrate.rest import ApiException
+import openapi_client
+from openapi_client.models.get_api_statistics200_response import GetApiStatistics200Response
+from openapi_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://endgrate.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = endgrate.Configuration(
+configuration = openapi_client.Configuration(
     host = "https://endgrate.com"
 )
 
 
 # Enter a context with an instance of the API client
-with endgrate.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = endgrate.EndgrateApi(api_client)
+    api_instance = openapi_client.EndgrateApi(api_client)
     method = 'method_example' # str |  (optional)
     session_id = 'session_id_example' # str |  (optional)
     transfer_id = 'transfer_id_example' # str |  (optional)
@@ -494,22 +494,22 @@ Session Redirect
 
 
 ```python
-import endgrate
-from endgrate.models.error import Error
-from endgrate.rest import ApiException
+import openapi_client
+from openapi_client.models.error import Error
+from openapi_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://endgrate.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = endgrate.Configuration(
+configuration = openapi_client.Configuration(
     host = "https://endgrate.com"
 )
 
 
 # Enter a context with an instance of the API client
-with endgrate.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = endgrate.EndgrateApi(api_client)
+    api_instance = openapi_client.EndgrateApi(api_client)
     session_id = 'session_id_example' # str | 
     integration_provider_list_id = 'integration_provider_list_id_example' # str |  (optional)
 
@@ -562,22 +562,22 @@ Edit Session Redirect
 
 
 ```python
-import endgrate
-from endgrate.models.error import Error
-from endgrate.rest import ApiException
+import openapi_client
+from openapi_client.models.error import Error
+from openapi_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://endgrate.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = endgrate.Configuration(
+configuration = openapi_client.Configuration(
     host = "https://endgrate.com"
 )
 
 
 # Enter a context with an instance of the API client
-with endgrate.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = endgrate.EndgrateApi(api_client)
+    api_instance = openapi_client.EndgrateApi(api_client)
     session_id = 'session_id_example' # str | 
 
     try:
@@ -628,22 +628,22 @@ Reauthenticate Session Redirect
 
 
 ```python
-import endgrate
-from endgrate.models.error import Error
-from endgrate.rest import ApiException
+import openapi_client
+from openapi_client.models.error import Error
+from openapi_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://endgrate.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = endgrate.Configuration(
+configuration = openapi_client.Configuration(
     host = "https://endgrate.com"
 )
 
 
 # Enter a context with an instance of the API client
-with endgrate.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = endgrate.EndgrateApi(api_client)
+    api_instance = openapi_client.EndgrateApi(api_client)
     session_id = 'session_id_example' # str | 
 
     try:
@@ -695,15 +695,15 @@ Initiate Pull Session
 * Bearer Authentication (BearerAuth):
 
 ```python
-import endgrate
-from endgrate.models.default_success_schema import DefaultSuccessSchema
-from endgrate.models.pull_initiate_schema import PullInitiateSchema
-from endgrate.rest import ApiException
+import openapi_client
+from openapi_client.models.default_success_schema import DefaultSuccessSchema
+from openapi_client.models.pull_initiate_schema import PullInitiateSchema
+from openapi_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://endgrate.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = endgrate.Configuration(
+configuration = openapi_client.Configuration(
     host = "https://endgrate.com"
 )
 
@@ -713,15 +713,15 @@ configuration = endgrate.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = endgrate.Configuration(
+configuration = openapi_client.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with endgrate.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = endgrate.EndgrateApi(api_client)
-    pull_initiate_schema = endgrate.PullInitiateSchema() # PullInitiateSchema | 
+    api_instance = openapi_client.EndgrateApi(api_client)
+    pull_initiate_schema = openapi_client.PullInitiateSchema() # PullInitiateSchema | 
 
     try:
         # Initiate Pull Session
@@ -773,15 +773,15 @@ Trigger Pull
 * Bearer Authentication (BearerAuth):
 
 ```python
-import endgrate
-from endgrate.models.pull_transfer_schema import PullTransferSchema
-from endgrate.models.transfer_response_schema import TransferResponseSchema
-from endgrate.rest import ApiException
+import openapi_client
+from openapi_client.models.pull_transfer_schema import PullTransferSchema
+from openapi_client.models.transfer_response_schema import TransferResponseSchema
+from openapi_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://endgrate.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = endgrate.Configuration(
+configuration = openapi_client.Configuration(
     host = "https://endgrate.com"
 )
 
@@ -791,15 +791,15 @@ configuration = endgrate.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = endgrate.Configuration(
+configuration = openapi_client.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with endgrate.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = endgrate.EndgrateApi(api_client)
-    pull_transfer_schema = endgrate.PullTransferSchema() # PullTransferSchema | 
+    api_instance = openapi_client.EndgrateApi(api_client)
+    pull_transfer_schema = openapi_client.PullTransferSchema() # PullTransferSchema | 
 
     try:
         # Trigger Pull
@@ -851,15 +851,15 @@ Initiate Push Session
 * Bearer Authentication (BearerAuth):
 
 ```python
-import endgrate
-from endgrate.models.default_success_schema import DefaultSuccessSchema
-from endgrate.models.push_initiate_schema import PushInitiateSchema
-from endgrate.rest import ApiException
+import openapi_client
+from openapi_client.models.default_success_schema import DefaultSuccessSchema
+from openapi_client.models.push_initiate_schema import PushInitiateSchema
+from openapi_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://endgrate.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = endgrate.Configuration(
+configuration = openapi_client.Configuration(
     host = "https://endgrate.com"
 )
 
@@ -869,15 +869,15 @@ configuration = endgrate.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = endgrate.Configuration(
+configuration = openapi_client.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with endgrate.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = endgrate.EndgrateApi(api_client)
-    push_initiate_schema = endgrate.PushInitiateSchema() # PushInitiateSchema | 
+    api_instance = openapi_client.EndgrateApi(api_client)
+    push_initiate_schema = openapi_client.PushInitiateSchema() # PushInitiateSchema | 
 
     try:
         # Initiate Push Session
@@ -929,15 +929,15 @@ Trigger Push
 * Bearer Authentication (BearerAuth):
 
 ```python
-import endgrate
-from endgrate.models.push_transfer_schema import PushTransferSchema
-from endgrate.models.transfer_response_schema import TransferResponseSchema
-from endgrate.rest import ApiException
+import openapi_client
+from openapi_client.models.push_transfer_schema import PushTransferSchema
+from openapi_client.models.transfer_response_schema import TransferResponseSchema
+from openapi_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://endgrate.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = endgrate.Configuration(
+configuration = openapi_client.Configuration(
     host = "https://endgrate.com"
 )
 
@@ -947,15 +947,15 @@ configuration = endgrate.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = endgrate.Configuration(
+configuration = openapi_client.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with endgrate.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = endgrate.EndgrateApi(api_client)
-    push_transfer_schema = endgrate.PushTransferSchema() # PushTransferSchema | 
+    api_instance = openapi_client.EndgrateApi(api_client)
+    push_transfer_schema = openapi_client.PushTransferSchema() # PushTransferSchema | 
 
     try:
         # Trigger Push
@@ -1007,15 +1007,15 @@ Set Schemas
 * Bearer Authentication (BearerAuth):
 
 ```python
-import endgrate
-from endgrate.models.default_success_schema import DefaultSuccessSchema
-from endgrate.models.post_api_schemas_request import PostApiSchemasRequest
-from endgrate.rest import ApiException
+import openapi_client
+from openapi_client.models.default_success_schema import DefaultSuccessSchema
+from openapi_client.models.post_api_schemas_request import PostApiSchemasRequest
+from openapi_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://endgrate.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = endgrate.Configuration(
+configuration = openapi_client.Configuration(
     host = "https://endgrate.com"
 )
 
@@ -1025,15 +1025,15 @@ configuration = endgrate.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = endgrate.Configuration(
+configuration = openapi_client.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with endgrate.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = endgrate.EndgrateApi(api_client)
-    post_api_schemas_request = endgrate.PostApiSchemasRequest() # PostApiSchemasRequest |  (optional)
+    api_instance = openapi_client.EndgrateApi(api_client)
+    post_api_schemas_request = openapi_client.PostApiSchemasRequest() # PostApiSchemasRequest |  (optional)
 
     try:
         # Set Schemas
@@ -1085,15 +1085,15 @@ Initiate (Push + Pull) Session
 * Bearer Authentication (BearerAuth):
 
 ```python
-import endgrate
-from endgrate.models.default_success_schema import DefaultSuccessSchema
-from endgrate.models.session_initiate_schema import SessionInitiateSchema
-from endgrate.rest import ApiException
+import openapi_client
+from openapi_client.models.default_success_schema import DefaultSuccessSchema
+from openapi_client.models.session_initiate_schema import SessionInitiateSchema
+from openapi_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://endgrate.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = endgrate.Configuration(
+configuration = openapi_client.Configuration(
     host = "https://endgrate.com"
 )
 
@@ -1103,15 +1103,15 @@ configuration = endgrate.Configuration(
 # satisfies your auth use case.
 
 # Configure Bearer authorization: BearerAuth
-configuration = endgrate.Configuration(
+configuration = openapi_client.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
 # Enter a context with an instance of the API client
-with endgrate.ApiClient(configuration) as api_client:
+with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = endgrate.EndgrateApi(api_client)
-    session_initiate_schema = endgrate.SessionInitiateSchema() # SessionInitiateSchema | 
+    api_instance = openapi_client.EndgrateApi(api_client)
+    session_initiate_schema = openapi_client.SessionInitiateSchema() # SessionInitiateSchema | 
 
     try:
         # Initiate (Push + Pull) Session

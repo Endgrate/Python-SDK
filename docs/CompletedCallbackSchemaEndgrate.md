@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from endgrate.models.completed_callback_schema_endgrate import CompletedCallbackSchemaEndgrate
+from openapi_client.models.completed_callback_schema_endgrate import CompletedCallbackSchemaEndgrate
 
 # TODO update the JSON string below
 json = "{}"

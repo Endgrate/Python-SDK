@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from endgrate.models.data_webhook_schema import DataWebhookSchema
+from openapi_client.models.data_webhook_schema import DataWebhookSchema
 
 # TODO update the JSON string below
 json = "{}"

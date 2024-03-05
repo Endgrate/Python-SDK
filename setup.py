@@ -21,7 +21,7 @@ from setuptools import setup, find_packages  # noqa: H301
 #
 # prerequisite: setuptools
 # http://pypi.python.org/pypi/setuptools
-NAME = "endgrate"
+NAME = "openapi-client"
 VERSION = "1.0.0"
 PYTHON_REQUIRES = ">=3.7"
 REQUIRES = [
@@ -46,5 +46,5 @@ setup(
     long_description="""\
     Endgrate API Reference
     """,  # noqa: E501
-    package_data={"endgrate": ["py.typed"]},
+    package_data={"openapi_client": ["py.typed"]},
 )

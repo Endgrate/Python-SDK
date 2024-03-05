@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from endgrate.models.delete_schema import DeleteSchema
+from openapi_client.models.delete_schema import DeleteSchema
 
 # TODO update the JSON string below
 json = "{}"

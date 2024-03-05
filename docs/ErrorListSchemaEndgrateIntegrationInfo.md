@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from endgrate.models.error_list_schema_endgrate_integration_info import ErrorListSchemaEndgrateIntegrationInfo
+from openapi_client.models.error_list_schema_endgrate_integration_info import ErrorListSchemaEndgrateIntegrationInfo
 
 # TODO update the JSON string below
 json = "{}"

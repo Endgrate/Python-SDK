@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from endgrate.models.push_transfer_schema import PushTransferSchema
+from openapi_client.models.push_transfer_schema import PushTransferSchema
 
 # TODO update the JSON string below
 json = "{}"

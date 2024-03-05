@@ -19,7 +19,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from endgrate.models.get_api_statistics200_response_statistics_value import GetApiStatistics200ResponseStatisticsValue
+from openapi_client.models.get_api_statistics200_response_statistics_value import GetApiStatistics200ResponseStatisticsValue
 
 # TODO update the JSON string below
 json = "{}"
